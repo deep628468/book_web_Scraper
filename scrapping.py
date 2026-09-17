@@ -114,4 +114,3 @@ with open("book.csv", "w", newline="", encoding="utf-8") as file:
 print("Data saved to book.csv")
 print("Failed product requests:", failed_requests)
 print("Successfully saved:", successful_records)
-
