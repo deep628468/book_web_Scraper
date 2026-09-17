@@ -4,7 +4,7 @@ import csv
 import time
 from urllib.parse import urljoin
 
-url = "https://99bookstores.com/?srsltid=AfmBOoorVi9p0ZE9XrpyksEfOSbg70E5QpS44FmbHL8ttMsEKNurIOzc"
+url = "https://99bookstores.com/"
 
 def get_page(url, retries=3):
     for attempt in range(1, retries + 1):
